@@ -67,7 +67,7 @@ void Search(TRIE * root,string s)
     {
         if(current==nullptr)
         {
-            cerr<<"The Book doesn't exists in the Library vishay zalay\n";
+            cerr<<"The Book doesn't exists in the Library\n";
             return;
         }
         current=current -> occ[q];
